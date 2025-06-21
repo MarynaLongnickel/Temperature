@@ -58,3 +58,16 @@ div {
     width: 260px;
     text-align: center;
 }
+
+.result-line {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cold {
+    color: blue;
+}
+
+.hot {
+    color: red;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="scripts/game.css">
+</head>
+<body>
+    <h1>Move the character</h1>
+
+    <div class="game-container">
+        <div id="bullet"></div>
+        <div id="character"></div>
+    </div>
+
+    <div class="controls">
+        <button onmousedown="startMoving('up')" onmouseup="stopMoving()" onmouseleave="stopMoving()">Up</button>
+        <button onmousedown="startMoving('left')" onmouseup="stopMoving()" onmouseleave="stopMoving()">Left</button>
+        <button onmousedown="startMoving('right')" onmouseup="stopMoving()" onmouseleave="stopMoving()">Right</button>
+        <button onmousedown="startMoving('down')" onmouseup="stopMoving()" onmouseleave="stopMoving()">Down</button>
+    </div>
+    <script src="scripts/game.js"></script>
+</body>
+</html>
